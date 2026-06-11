@@ -1,0 +1,22 @@
+{
+  "bot": {
+    "name": "{{BOT_NAME}}",
+    "prefix": "!",
+    "owners": []
+  },
+  "api": {
+    "port": 3000,
+    "enabled": true
+  },
+  "database": {
+    "type": "{{DB_TYPE}}"
+  },
+  "oauth": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "embed": {
+    "color": "#5865F2",
+    "footer": "{{BOT_NAME}}"
+  }
+}

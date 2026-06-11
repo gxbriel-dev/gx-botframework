@@ -1,0 +1,32 @@
+{
+  "name": "gx-botframework",
+  "version": "1.0.0",
+  "description": "Modulares Discord-Bot-Framework mit Scaffolding-CLI",
+  "type": "commonjs",
+  "bin": {
+    "mybot-cli": "./bin/cli.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "cli": "node bin/cli.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "framework",
+    "cli",
+    "scaffolding"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "githubExample": [
+    {
+      "type": 17,
+      "accent_color": 9225410,
+      "spoiler": false,
+      "components": [
+        {
+          "type": 10,
+          "content": "Example components:"
+        },
+        {
+          "type": 10,
+          "content": "\nImages"
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://avatars.githubusercontent.com/u/77593673?s=128"
+              },
+              "description": null,
+              "spoiler": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "welcome": {
+    "content": "Willkommen, {user}!",
+    "embed": {
+      "title": "Willkommen auf dem Server",
+      "description": "Schön, dass du da bist, **{user}**!",
+      "color": "#57F287",
+      "fields": [
+        { "name": "Mitglied", "value": "{user}", "inline": true },
+        { "name": "Server", "value": "{guild}", "inline": true }
+      ]
+    }
+  },
+  "muteConfirm": {
+    "embed": {
+      "title": "Mute bestätigen",
+      "description": "Soll **{target}** für **{duration}** stummgeschaltet werden?\n\n**Grund:** {reason}",
+      "color": "#FEE75C"
+    }
+  },
+  "muteSuccess": {
+    "embed": {
+      "title": "Benutzer stummgeschaltet",
+      "description": "**{target}** wurde für **{duration}** stummgeschaltet.",
+      "color": "#57F287",
+      "fields": [
+        { "name": "Moderator", "value": "{moderator}", "inline": true },
+        { "name": "Grund", "value": "{reason}", "inline": false }
+      ]
+    }
+  }
+}

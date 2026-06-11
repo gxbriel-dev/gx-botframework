@@ -1,0 +1,22 @@
+{
+  "bot": {
+    "name": { "type": "string", "required": true },
+    "prefix": { "type": "string", "required": false, "default": "!" },
+    "owners": { "type": "array", "required": false, "default": [] }
+  },
+  "api": {
+    "port": { "type": "number", "required": false, "default": 3000 },
+    "enabled": { "type": "boolean", "required": false, "default": true }
+  },
+  "database": {
+    "type": { "type": "string", "required": true, "enum": ["json", "mysql", "none"] }
+  },
+  "oauth": {
+    "clientId": { "type": "string", "required": false, "default": "" },
+    "clientSecret": { "type": "string", "required": false, "default": "" }
+  },
+  "embed": {
+    "color": { "type": "string", "required": false, "default": "#5865F2" },
+    "footer": { "type": "string", "required": false, "default": "{{BOT_NAME}}" }
+  }
+}
